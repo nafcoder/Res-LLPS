@@ -1,7 +1,7 @@
 # Res-LLPS
 
 ### Data availability
-All training and independent datasets are given in [dataset](dataset) folder
+All training and independent test datasets are given in [dataset](dataset) folder. The test set features are provided in [ESMC_6B](ESMC_6B) folder. The training set features can be found from https://drive.google.com/drive/folders/1l7fN2uJOlhMiNNx6-OvC7kVcF-NiVmJf?usp=drive_link.
 
 ### Environments
 OS: Pop!_OS 22.04 LTS
