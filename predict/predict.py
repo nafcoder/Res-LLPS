@@ -166,6 +166,6 @@ for ind in range(len(Sequence)):
     feats = pad_or_truncate(torch.from_numpy(embeddings)).unsqueeze(0)  # (1, L, 2560)
     feats = feats.to(device)
     outputs = model(feats)
-    probs = torch.sigmoid(outputs).cpu().numpy()
+    probs = torch.sigmoid(outputs).detach().cpu().numpy()
     print(f"Predicted LLPS probability for sequence {ind+1}: {probs[0]:.4f}")
 
