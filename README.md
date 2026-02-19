@@ -32,4 +32,7 @@ In [training](training) and [testing](testing) folders, training and testing rep
 In [prev_paper](prev_paper), scripts are provided for reproducing the results of the previous paper.
 
 ### Predict
-To predict a query protein, please use the [predict](predict) folder. Python 3.10 is required to run the code, as the ESMC_6B embedding generation module depends specifically on this Python version.
+To predict a query protein, please use the [predict](predict) folder. Python 3.10 is required to run the code, as the ESMC_6B embedding generation module depends specifically on this Python version. Also, you will need to install the esm python package by using the command:
+```
+pip install esm
+```
